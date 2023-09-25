@@ -1,0 +1,124 @@
+[
+    {
+      "Cover": "https://i.ibb.co/dKTKmwk/Food.png",
+      "Title": "Delicious Pizza",
+      "Category": "Food",
+      "Category_bg": "#F87147",
+      "Card_bg": "#F8714726",
+      "Text_button_bg": "#2ecc71",
+      "Description": "A mouth-watering pizza topped with cheese, tomatoes, and your favorite toppings.",
+      "Price": "$12.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/xjqnbHb/Clothing.png",
+      "Title": "Stylish T-Shirt",
+      "Category": "Clothing",
+      "Category_bg": "#79C23F",
+      "Card_bg": "#79C23F26",
+      "Text_button_bg": "#f1c40f",
+      "Description": "A trendy and comfortable t-shirt for your everyday style.",
+      "Price": "$19.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/hWMJwvw/Education.png",
+      "Title": "Online Course",
+      "Category": "Education",
+      "Category_bg": "#FF444A",
+      "Card_bg": "#FF444A26",
+      "Text_button_bg": "#e67e22",
+      "Description": "Learn new skills and expand your knowledge with our online courses.",
+      "Price": "$29.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/88MMQGR/Health.png",
+      "Title": "Clean water for children",
+      "Category": "Health",
+      "Category_bg": "#0052FF",
+      "Card_bg": "#0052FF26",
+      "Text_button_bg": "#f39c12",
+      "Description": "Track your health and fitness goals with our advanced fitness tracker.",
+      "Price": "$49.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/dKTKmwk/Food.png",
+      "Title": "Gourmet Burger",
+      "Category": "Food",
+      "Category_bg": "#F87147",
+      "Card_bg": "#F8714726",
+      "Text_button_bg": "#2ecc71",
+      "Description": "A juicy burger with premium ingredients and mouthwatering flavors.",
+      "Price": "$9.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/xjqnbHb/Clothing.png",
+      "Title": "Fashionable Dress",
+      "Category": "Clothing",
+      "Category_bg": "#79C23F",
+      "Card_bg": "#79C23F26",
+      "Text_button_bg": "#f1c40f",
+      "Description": "A stylish dress for special occasions and events.",
+      "Price": "$39.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/hWMJwvw/Education.png",
+      "Title": "Language Course",
+      "Category": "Education",
+      "Category_bg": "#FF444A",
+      "Card_bg": "#FF444A26",
+      "Text_button_bg": "#e67e22",
+      "Description": "Learn a new language and open doors to new opportunities.",
+      "Price": "$19.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/88MMQGR/Health.png",
+      "Title": "Health Supplements",
+      "Category": "Health",
+      "Category_bg": "#0052FF",
+      "Card_bg": "#0052FF26",
+      "Text_button_bg": "#f39c12",
+      "Description": "Support your health with our range of high-quality supplements.",
+      "Price": "$29.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/dKTKmwk/Food.png",
+      "Title": "Fresh Salad",
+      "Category": "Food",
+      "Category_bg": "#F87147",
+      "Card_bg": "#F8714726",
+      "Text_button_bg": "#2ecc71",
+      "Description": "A healthy and delicious salad made with fresh ingredients.",
+      "Price": "$7.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/xjqnbHb/Clothing.png",
+      "Title": "Casual Jeans",
+      "Category": "Clothing",
+      "Category_bg": "#79C23F",
+      "Card_bg": "#79C23F26",
+      "Text_button_bg": "#f1c40f",
+      "Description": "Comfortable and stylish jeans for your everyday wardrobe.",
+      "Price": "$34.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/hWMJwvw/Education.png",
+      "Title": "Art Workshop",
+      "Category": "Education",
+      "Category_bg": "#FF444A",
+      "Card_bg": "#FF444A26",
+      "Text_button_bg": "#e67e22",
+      "Description": "Unleash your creativity with our interactive art workshops.",
+      "Price": "$24.99"
+    },
+    {
+      "Cover": "https://i.ibb.co/88MMQGR/Health.png",
+      "Title": "Yoga Mat",
+      "Category": "Health",
+      "Category_bg": "#0052FF",
+      "Card_bg": "#0052FF26",
+      "Text_button_bg": "#f39c12",
+      "Description": "Enhance your yoga practice with our eco-friendly yoga mat.",
+      "Price": "$19.99"
+    }
+  ]
+  
+  

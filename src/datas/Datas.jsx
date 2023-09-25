@@ -8,14 +8,14 @@ const Datas = ({data}) => {
         <div >
             <Link to={`/datas/${id}`}>
 
-            <div className={`card w-72 ${Card_bg} shadow-xl`}>
+            <div className={`card w-72  shadow-xl`} style={{backgroundColor:Card_bg}}>
   <figure><img src={Cover} alt="Shoes" className="w-full" /></figure>
   <div className="card-body">
     <h2 className="card-title -mt-4">
              
-      <div className={`text-${Category_bg} btn font-bold text-sm`}>{Category}</div>
+      <div className={`btn font-bold text-sm`} style={{backgroundColor:Card_bg,color:Category_bg}}>{Category}</div>
     </h2>
-    <p className={`text-${Category_bg}`}>{Title}</p>
+    <p className={`font-bold`} style={{color:Category_bg}}>{Title}</p>
     
   </div>
 </div>

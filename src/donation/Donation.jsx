@@ -2,7 +2,8 @@
 
 
 const Donation = ({data}) => {
-    const  {Cover,Category,Title,Card_bg,Category_bg,id,Text_button_bg,Price} = data;
+    const  {Cover,Category,Title,Card_bg,Category_bg,Text_button_bg,Price} = data;
+    
     return (
         <div className="">
            <div className=" card w-[550px] h-[200px] lg:card-side bg-base-100 shadow-xl mt-10 " style={{backgroundColor:Card_bg}}>

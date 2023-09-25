@@ -6,7 +6,7 @@ import Navvar from "../navvar/Navvar";
 
 const Root = () => {
     return (
-        <div>
+        <div className="max-w-7xl mx-auto">
         <Navvar></Navvar>
          <div className="py-10">
           

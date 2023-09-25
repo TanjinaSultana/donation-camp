@@ -8,7 +8,7 @@
       "Card_bg": "#F8714726",
       "Text_button_bg": "#F87147",
       "Description": "A mouth-watering pizza topped with cheese, tomatoes, and your favorite toppings.",
-      "Price": "$12.99"
+      "Price": 12.99
     },
     {
       "id" : 2,
@@ -19,7 +19,7 @@
       "Card_bg": "#79C23F26",
       "Text_button_bg": "#79C23F",
       "Description": "A trendy and comfortable t-shirt for your everyday style.",
-      "Price": "$19.99"
+      "Price": 19.99
     },
     {
       "id" : 3,
@@ -30,7 +30,7 @@
       "Card_bg": "#FF444A26",
       "Text_button_bg": "#FF444A",
       "Description": "Learn new skills and expand your knowledge with our online courses.",
-      "Price": "$29.99"
+      "Price": 29.99
     },
     {"id" : 4,
       "Cover": "https://i.ibb.co/88MMQGR/Health.png",
@@ -40,7 +40,7 @@
       "Card_bg": "#0052FF26",
       "Text_button_bg": "#0052FF",
       "Description": "Track your health and fitness goals with our advanced fitness tracker.",
-      "Price": "$49.99"
+      "Price": 49.99
     },
     {
       "id" : 5,
@@ -51,7 +51,7 @@
       "Card_bg": "#F8714726",
       "Text_button_bg": "#F87147",
       "Description": "A juicy burger with premium ingredients and mouthwatering flavors.",
-      "Price": "$9.99"
+      "Price": 9.99
     },
     {
       "id" : 6,
@@ -62,7 +62,7 @@
       "Card_bg": "#79C23F26",
       "Text_button_bg": "#79C23F",
       "Description": "A stylish dress for special occasions and events.",
-      "Price": "$39.99"
+      "Price": 39.99
     },
     {
       "id" : 7,
@@ -73,7 +73,7 @@
       "Card_bg": "#FF444A26",
       "Text_button_bg": "#FF444A",
       "Description": "Learn a new language and open doors to new opportunities.",
-      "Price": "$19.99"
+      "Price": 19.99
     },
     {
       "id" : 8,
@@ -84,7 +84,7 @@
       "Card_bg": "#0052FF26",
       "Text_button_bg": "#0052FF",
       "Description": "Support your health with our range of high-quality supplements.",
-      "Price": "$29.99"
+      "Price": 29.99
     },
     {
       "id" : 9,
@@ -95,7 +95,7 @@
       "Card_bg": "#F8714726",
       "Text_button_bg": "#F87147",
       "Description": "A healthy and delicious salad made with fresh ingredients.",
-      "Price": "$7.99"
+      "Price": 7.99
     },
     {
       "id" : 10,
@@ -106,7 +106,7 @@
       "Card_bg": "#79C23F26",
       "Text_button_bg": "#79C23F",
       "Description": "Comfortable and stylish jeans for your everyday wardrobe.",
-      "Price": "$34.99"
+      "Price": 34.99
     },
     {
       "id" : 11,
@@ -117,7 +117,7 @@
       "Card_bg": "#FF444A26",
       "Text_button_bg": "#FF444A",
       "Description": "Unleash your creativity with our interactive art workshops.",
-      "Price": "$24.99"
+      "Price": 24.99
     },
     { 
       "id" : 12,
@@ -128,7 +128,7 @@
       "Card_bg": "#0052FF26",
       "Text_button_bg": "#0052FF",
       "Description": "Enhance your yoga practice with our eco-friendly yoga mat.",
-      "Price": "$19.99"
+      "Price": 19.99
     }
   ]
   

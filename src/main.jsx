@@ -8,7 +8,7 @@ import {
 import Root from './root/Root';
 import Home from './home/Home';
 import './index.css'
-import Donation from './donation/Donation';
+import Donation from './donationCard/DonationCard';
 import Statistics from './statistics/Statistics';
 import ErrorPage from './errorPage/ErrorPage';
 

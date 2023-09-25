@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 
 import DataCard from "../datas/DataCard";
-import Datas from "../pages/datas/Datas";
+
 const Data = ({data}) => {
     return (
         <div>

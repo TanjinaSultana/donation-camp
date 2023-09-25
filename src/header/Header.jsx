@@ -1,6 +1,6 @@
 
 
-import Navvar from "../navvar/Navvar";
+
 
 
 const Header = () => {

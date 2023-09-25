@@ -13,6 +13,7 @@ import Statistics from './statistics/Statistics';
 import ErrorPage from './errorPage/ErrorPage';
 
 import Datas from './pages/datas/Datas';
+//import Search from './pages/search/Search';
 
 const router = createBrowserRouter([
   {
@@ -38,6 +39,11 @@ const router = createBrowserRouter([
     element: <Datas></Datas>,
     loader: ()=>fetch('/data.json')
       }
+    //   {
+    //     path: "/search",
+    // element: <Search></Search>,
+    // loader: ()=>fetch('/data.json')
+    //   }
     ]
   },
 ]);

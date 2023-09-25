@@ -1,14 +1,11 @@
-/* eslint-disable react/jsx-no-duplicate-props */
 /* eslint-disable react/prop-types */
 
-import { Link } from "react-router-dom";
-const Datas = ({data}) => {
-  const  {Cover,Category,Title,Card_bg,Category_bg,id,Text_button_bg} = data;
-  
-    return (
-        <div className="">
-            <Link to={`/datas/${id}`}>
 
+const Search = ({data}) => {
+    const  {Cover,Category,Title,Card_bg,Category_bg,Text_button_bg} = data;
+    return (
+        <div>
+           
             <div className={`card w-72  shadow-xl`} style={{backgroundColor:Card_bg}}>
   <figure><img src={Cover} alt="Shoes" className="w-full" /></figure>
   <div className="card-body">
@@ -20,9 +17,8 @@ const Datas = ({data}) => {
     
   </div>
 </div>
-            </Link>
         </div>
     );
 };
 
-export default Datas;
+export default Search;

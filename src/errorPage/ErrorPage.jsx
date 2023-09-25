@@ -2,8 +2,9 @@
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1>oops!! There is something wrong</h1>
+        <div className="text-center">
+            <h2 className="text-2xl font-bold mt-48">404 - Page Not Found</h2>
+      <p className="text-xl ">The page you are looking for does not exist.</p>
         </div>
     );
 };

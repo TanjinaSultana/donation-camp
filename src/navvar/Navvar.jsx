@@ -14,14 +14,14 @@ const Navvar = () => {
     </li>
      </>
     return (
-        <div>
-            <div className="navbar mt-10">
+        <div className="mt-10">
+            <div className="navbar  flex flex-col  lg:flex-row ">
   <div className="flex flex-row md:flex-row  lg:flex-1">
     <a className="btn btn-ghost normal-case text-xl">
         <img className="" src="../public/assets/Resources/Logo.png" alt="logo"></img>
     </a>
   </div>
-  <nav className="flex-none">
+  <nav className="flex-none mt-4 lg:mt-0 ">
     <ul className="menu  menu-horizontal px-1 ">
   {link}
     </ul>

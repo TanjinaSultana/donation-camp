@@ -7,6 +7,7 @@ const Datas = ({data}) => {
   
     return (
         <div className="">
+          
             <Link to={`/datas/${id}`}>
 
             <div className={`card w-72  shadow-xl`} style={{backgroundColor:Card_bg}}>

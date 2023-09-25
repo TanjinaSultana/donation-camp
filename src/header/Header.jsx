@@ -36,10 +36,10 @@ const handleButton= () => {
                       <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-7xl mt-20">
                   <h1 className="mb-5 text-5xl font-bold text-[#0B0B0B]">I Grow By Helping People In Need</h1>
-                  <input type="text" placeholder="Search here" value={inputValue} onChange={handleInput}  className="input text-gray  border-[#DEDEDE] w-full max-w-xs mt-5 rounded-none" />
+                  <input type="text" placeholder="Search here" value={inputValue} onChange={handleInput}  className="input text-gray  border-[#DEDEDE] w-48 lg:w-full mt-5 rounded-none" />
                   
               
-                  <button className="btn bg-[#FF444A] -ml-2 text-white rounded-none text-lg font-normal normal-case" onClick={handleButton}>Search</button>
+                  <button className="btn bg-[#FF444A] -ml-2 text-white rounded-none text-sm lg:text-lg  font-normal normal-case" onClick={handleButton}>Search</button>
 </div>
 </div>
       </div>

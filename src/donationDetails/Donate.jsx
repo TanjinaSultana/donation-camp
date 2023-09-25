@@ -28,10 +28,10 @@ const Donate = ({datas}) => {
     }
     return (
         <>
-        <div className="max-w-5xl mx-auto">
+        <div className=" lg:max-w-5xl mx-auto">
             <div style={{
                 backgroundImage: `url(${Cover})`}} className="w-[1000px] h-[500px] bg-no-repeat bg-cover relative">
-        <p className="hero-overlay absolute inset-0 bg-[#0B0B0B80]  bg-opacity-500 w-full h-[120px] top-[380px]"  >
+        <p className="hero-overlay absolute inset-0 bg-[#0B0B0B80]  bg-opacity-500 w-auto lg:w-full h-[120px] top-[380px]"  >
          <button className="btn mt-10 ml-14 border-none text-[#FFF] font-normal text-sm " style={{
                 backgroundColor: Text_button_bg }}  onClick={handleAdd}>Donate {Price}</button>
         </p>

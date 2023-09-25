@@ -40,7 +40,7 @@ const StatisticsChart = ({total}) => {
     };
     
       return (
-        <div className=' max-w-screen-sm lg:max-w-screen-lg md:max-w-screen-md mx-auto flex justify-center items-center'>
+        <div className='  lg:w-0 flex justify-center items-center'>
             <div>
 
         <PieChart width={500} height={400} >
@@ -59,13 +59,13 @@ const StatisticsChart = ({total}) => {
             ))}
             </Pie>
           </PieChart>
-          <div className=' flex gap-5'>
+          <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2   '>
 
-          <div className=' flex gap-5'>
+          <div className='mx-auto flex   gap-5'>
           <h3 className=' font-bold text-base'>Your Donation : </h3>
             <p className=' w-[100px] h-[20px] bg-[#00C49F]'></p>
           </div>
-          <div className=' flex gap-5'>
+          <div className='mx-auto flex   gap-5'>
           <h3 className=' font-bold text-base'>Total Donation : </h3>
             <p className=' w-[100px] h-[20px] bg-[#FF444A]'></p>
           </div>

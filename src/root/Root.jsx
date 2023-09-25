@@ -1,13 +1,17 @@
 import { Outlet } from "react-router-dom";
-import Header from "../header/Header";
+
+import Navvar from "../navvar/Navvar";
 
 
 
 const Root = () => {
     return (
         <div>
-         <Header></Header>
+        <Navvar></Navvar>
+         <div className="py-10">
+          
          <Outlet></Outlet>
+         </div>
         </div>
     );
 };

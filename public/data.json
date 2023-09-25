@@ -1,5 +1,6 @@
 [
     {
+      "id" : 1,
       "Cover": "https://i.ibb.co/dKTKmwk/Food.png",
       "Title": "Delicious Pizza",
       "Category": "Food",
@@ -10,6 +11,7 @@
       "Price": "$12.99"
     },
     {
+      "id" : 2,
       "Cover": "https://i.ibb.co/xjqnbHb/Clothing.png",
       "Title": "Stylish T-Shirt",
       "Category": "Clothing",
@@ -20,6 +22,7 @@
       "Price": "$19.99"
     },
     {
+      "id" : 3,
       "Cover": "https://i.ibb.co/hWMJwvw/Education.png",
       "Title": "Online Course",
       "Category": "Education",
@@ -29,7 +32,7 @@
       "Description": "Learn new skills and expand your knowledge with our online courses.",
       "Price": "$29.99"
     },
-    {
+    {"id" : 4,
       "Cover": "https://i.ibb.co/88MMQGR/Health.png",
       "Title": "Clean water for children",
       "Category": "Health",
@@ -40,6 +43,7 @@
       "Price": "$49.99"
     },
     {
+      "id" : 5,
       "Cover": "https://i.ibb.co/dKTKmwk/Food.png",
       "Title": "Gourmet Burger",
       "Category": "Food",
@@ -50,6 +54,7 @@
       "Price": "$9.99"
     },
     {
+      "id" : 6,
       "Cover": "https://i.ibb.co/xjqnbHb/Clothing.png",
       "Title": "Fashionable Dress",
       "Category": "Clothing",
@@ -60,6 +65,7 @@
       "Price": "$39.99"
     },
     {
+      "id" : 7,
       "Cover": "https://i.ibb.co/hWMJwvw/Education.png",
       "Title": "Language Course",
       "Category": "Education",
@@ -70,6 +76,7 @@
       "Price": "$19.99"
     },
     {
+      "id" : 8,
       "Cover": "https://i.ibb.co/88MMQGR/Health.png",
       "Title": "Health Supplements",
       "Category": "Health",
@@ -80,6 +87,7 @@
       "Price": "$29.99"
     },
     {
+      "id" : 9,
       "Cover": "https://i.ibb.co/dKTKmwk/Food.png",
       "Title": "Fresh Salad",
       "Category": "Food",
@@ -90,6 +98,7 @@
       "Price": "$7.99"
     },
     {
+      "id" : 10,
       "Cover": "https://i.ibb.co/xjqnbHb/Clothing.png",
       "Title": "Casual Jeans",
       "Category": "Clothing",
@@ -100,6 +109,7 @@
       "Price": "$34.99"
     },
     {
+      "id" : 11,
       "Cover": "https://i.ibb.co/hWMJwvw/Education.png",
       "Title": "Art Workshop",
       "Category": "Education",
@@ -109,7 +119,8 @@
       "Description": "Unleash your creativity with our interactive art workshops.",
       "Price": "$24.99"
     },
-    {
+    { 
+      "id" : 12,
       "Cover": "https://i.ibb.co/88MMQGR/Health.png",
       "Title": "Yoga Mat",
       "Category": "Health",

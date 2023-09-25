@@ -12,6 +12,8 @@ import Donation from './donation/Donation';
 import Statistics from './statistics/Statistics';
 import ErrorPage from './errorPage/ErrorPage';
 
+import Datas from './pages/datas/Datas';
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -30,6 +32,10 @@ const router = createBrowserRouter([
       {
         path: "/statistics",
     element: <Statistics></Statistics>
+      },
+      {
+        path: "/datas/:id",
+    element: <Datas></Datas>
       }
     ]
   },

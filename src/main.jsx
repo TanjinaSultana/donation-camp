@@ -8,11 +8,12 @@ import {
 import Root from './root/Root';
 import Home from './home/Home';
 import './index.css'
-import Donation from './donationCard/DonationCard';
+//import Donation from './donationCard/DonationCard';
 import Statistics from './statistics/Statistics';
 import ErrorPage from './errorPage/ErrorPage';
 
 import Datas from './pages/datas/Datas';
+import DonationCard from './donationCard/DonationCard';
 //import Search from './pages/search/Search';
 
 const router = createBrowserRouter([
@@ -24,11 +25,11 @@ const router = createBrowserRouter([
       {
         path: "/",
     element: <Home></Home>,
-    loader: ()=>fetch('/data.json')
+    //loader: ()=>fetch('/data.json')
       },
       {
         path: "/donation",
-    element: <Donation></Donation>
+    element: <DonationCard></DonationCard>
       },
       {
         path: "/statistics",

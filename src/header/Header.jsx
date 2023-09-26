@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import Search from "../search/Search";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import DataCard from "../datas/DataCard"
 import Data from "../data/Data";
@@ -13,15 +13,20 @@ const Header = () => {
   const [inputValue, setInputValue] = useState('');
   const [category,setCategory]  = useState({});
   const [search,setSearch]  = useState(false);
+  const [dataSet,setDataSet]  = useState([]);
  
-  const data  = useLoaderData();
+  useEffect(() =>{
+    fetch("data.json")
+    .then(res=>res.json())
+    .then(data=>setDataSet(data))
+},[])
 const handleInput = (e) => {
   setInputValue(e.target.value);
 };
 
 const handleButton= () => {
 
-  const remainData = data.filter((item) =>
+  const remainData = dataSet.filter((item) =>
     item.Category.toLowerCase() === inputValue.toLowerCase()
   );
   setCategory(remainData);
@@ -57,7 +62,7 @@ const handleButton= () => {
           <Search key={data.id} data={data} />
         ))}
                 </div>
-                  </div>):<Data data={data}></Data>
+                  </div>):<Data data={dataSet}></Data>
             }
                   </div>
    

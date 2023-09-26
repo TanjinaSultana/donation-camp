@@ -4,6 +4,7 @@
 import DataCard from "../datas/DataCard";
 
 const Data = ({data}) => {
+   
     return (
         <div>
            

@@ -15,7 +15,7 @@ const Datas = ({data}) => {
   <div className="card-body">
     <h2 className="card-title -mt-4">
              
-      <div className="btn text-sm font-semibold " style={{ color:Text_button_bg,backgroundColor:Category_bg}}>{Category}</div>
+      <div className="btn text-sm font-semibold normal-case " style={{ color:Text_button_bg,backgroundColor:Category_bg}}>{Category}</div>
     </h2>
     <p className={`font-bold`} style={{color:Text_button_bg}}>{Title}</p>
     

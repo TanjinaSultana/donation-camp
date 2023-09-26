@@ -40,11 +40,7 @@ const router = createBrowserRouter([
     element: <Datas></Datas>,
     loader: ()=>fetch('/data.json')
       }
-    //   {
-    //     path: "/search",
-    // element: <Search></Search>,
-    // loader: ()=>fetch('/data.json')
-    //   }
+      
     ]
   },
 ]);

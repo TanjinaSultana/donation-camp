@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
-import Search from "../search/Search";
 import { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import DataCard from "../datas/DataCard"
@@ -59,7 +58,7 @@ const handleButton= () => {
 
               {
               category?.map((data) => (
-          <Search key={data.id} data={data} />
+          <DataCard key={data.id} data={data}></DataCard>
         ))}
                 </div>
                   </div>):<Data data={dataSet}></Data>

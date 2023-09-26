@@ -18,7 +18,7 @@ const Navvar = () => {
             <div className="navbar  flex flex-col  lg:flex-row ">
   <div className="flex flex-row md:flex-row  lg:flex-1">
     <a className="btn btn-ghost normal-case text-xl">
-        <img className="" src="../public/assets/Resources/Logo.png" alt="logo"></img>
+        <img className="" src="https://i.ibb.co/2FgQvZJ/Logo.png" alt="logo"></img>
     </a>
   </div>
   <nav className="flex-none mt-4 lg:mt-0 ">

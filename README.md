@@ -16,7 +16,7 @@ The ability to show a sweetAlert on Donate when it is clicked.
 
 ## GETTING STARTED
 Follow these steps to set project up and running:
-1. Create a folder:`Donation-camp`.
+1. Create a folder:`donation-camp`.
 2. Navigate to the project directory: `cd donation-camp`
 3. Install react by this in terminal `npm create vite@latest donation-camp -- --template react`
 4. Navigate project directory again with : `cd donation-camp`

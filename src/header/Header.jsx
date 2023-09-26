@@ -5,6 +5,7 @@ import Search from "../search/Search";
 import { useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import DataCard from "../datas/DataCard"
+import Data from "../data/Data";
 
 
 const Header = () => {
@@ -24,7 +25,7 @@ const handleButton= () => {
     item.Category.toLowerCase() === inputValue.toLowerCase()
   );
   setCategory(remainData);
-  setSearch(!search);
+  setSearch(true);
   setInputValue("");
   
 }
@@ -48,7 +49,7 @@ const handleButton= () => {
         
             {
               search ? (<div >
-                <h1 className="font-bold text-xl mt-8">Searching List</h1>
+                
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-10">
 
               {
@@ -56,7 +57,7 @@ const handleButton= () => {
           <Search key={data.id} data={data} />
         ))}
                 </div>
-                  </div>):""
+                  </div>):<Data data={data}></Data>
             }
                   </div>
    

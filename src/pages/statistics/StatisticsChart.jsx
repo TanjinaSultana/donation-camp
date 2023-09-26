@@ -40,8 +40,8 @@ const StatisticsChart = ({total}) => {
     };
     
       return (
-        <div className='  lg:w-0 flex justify-center items-center'>
-            <div>
+        <div className='  mx-auto p-4'>
+            <div >
 
         <PieChart width={500} height={400} >
           <Pie
@@ -50,7 +50,7 @@ const StatisticsChart = ({total}) => {
             cy={200}
             labelLine={false}
             label={renderCustomizedLabel}
-            outerRadius={140}
+            outerRadius={90}
             fill="#8884d8"
             dataKey="value"
           >
@@ -61,13 +61,13 @@ const StatisticsChart = ({total}) => {
           </PieChart>
           <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2   '>
 
-          <div className='mx-auto flex   gap-5'>
+          <div className=' flex'>
           <h3 className=' font-bold text-base'>Your Donation : </h3>
-            <p className=' w-[100px] h-[20px] bg-[#00C49F]'></p>
+            <p className=' w-[50px] h-[20px] bg-[#00C49F]'></p>
           </div>
-          <div className='mx-auto flex   gap-5'>
+          <div className='flex'>
           <h3 className=' font-bold text-base'>Total Donation : </h3>
-            <p className=' w-[100px] h-[20px] bg-[#FF444A]'></p>
+            <p className=' w-[50px] h-[20px] bg-[#FF444A]'></p>
           </div>
           </div>
             </div>

@@ -13,12 +13,7 @@ const DonationCard = () => {
         const donateItem = JSON.parse(localStorage.getItem('donate'));
         if(donateItem){
             setDonate(donateItem)
-        //    const totalPrice = donateItem.reduce((preValue,currentItem) => preValue + currentItem.Price,0)
-        //    console.log(totalPrice);
-        //    //setTotal(totalPrice)
-
-
-        }else{
+       }else{
             setNofound("No Data")
         }
     },[])
@@ -27,7 +22,7 @@ const DonationCard = () => {
            {
            Nofound?<p className="h-[80vh] flex justify-center items-center">{Nofound}</p>:
            (<div>
-           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 max-w-6xl mx-auto">
+           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 container mx-auto">
             {
                isShow? donate.map((data) =><Donation key={data.id} data={data}></Donation>):
                donate.slice(0,4).map((data) =><Donation key={data.id} data={data}></Donation>)
@@ -35,8 +30,10 @@ const DonationCard = () => {
            
            </div>
         {donate.length>4 && 
-        
-          <button onClick={()=>setIsShow(!isShow)} className="btn bg-[#009444] btn primary text-center mt-8 ml-0 lg:ml-[600px] normal-case">{isShow ?"See Less" : "See More"}</button>
+        <div className="flex justify-center items-center">
+
+            <button onClick={()=>setIsShow(!isShow)} className={`btn mt-8 normal-case ${isShow ? '' : 'bg-[#009444]'}`}>{isShow ?null : "See More"}</button>
+        </div>
         
         }
           </div>

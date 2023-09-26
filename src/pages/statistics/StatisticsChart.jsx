@@ -40,10 +40,10 @@ const StatisticsChart = ({total}) => {
     };
     
       return (
-        <div className='  mx-auto p-4'>
+        <div className=''>
             <div >
 
-        <PieChart width={500} height={400} >
+        <PieChart width={300} height={400} className='mx-auto '>
           <Pie
             data={data}
             cx={200}
@@ -59,7 +59,7 @@ const StatisticsChart = ({total}) => {
             ))}
             </Pie>
           </PieChart>
-          <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2   '>
+          <div className=' flex justify-center  '>
 
           <div className=' flex'>
           <h3 className=' font-bold text-base'>Your Donation : </h3>

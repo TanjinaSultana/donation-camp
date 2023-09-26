@@ -32,7 +32,7 @@ const handleButton= () => {
     return (
 <div>
    
-     <div className="  bg-no-repeat bg-cover relative h-[400px]" style={{backgroundImage: 'url(../assets/Resources/Clothing.png) ' }}>
+     <div className=" mt-10 bg-no-repeat bg-cover relative h-[400px]" style={{backgroundImage: 'url(../assets/Resources/Clothing.png) ' }}>
     <div className="hero-overlay absolute inset-0 bg-base-100 bg-opacity-90 ">
                       <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-7xl mt-20">

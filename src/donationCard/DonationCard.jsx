@@ -20,9 +20,9 @@ const DonationCard = () => {
     return (
         <div>
            {
-           Nofound?<p className="h-[80vh] flex justify-center items-center">{Nofound}</p>:
+           Nofound?<p className=" flex justify-center items-center">{Nofound}</p>:
            (<div>
-           <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 container mx-auto">
+           <div className=" grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 ">
             {
                isShow? donate.map((data) =><Donation key={data.id} data={data}></Donation>):
                donate.slice(0,4).map((data) =><Donation key={data.id} data={data}></Donation>)

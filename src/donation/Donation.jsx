@@ -5,14 +5,14 @@ const Donation = ({data}) => {
     const  {Cover,Category,Title,Card_bg,Category_bg,Text_button_bg,Price} = data;
     
     return (
-        <div className="">
-           <div className=" card w-[550px] h-[200px] lg:card-side bg-base-100 shadow-xl mt-10 " style={{backgroundColor:Card_bg}}>
+        <div className=" ">
+           <div className=" card h-[400px] w-[300px] md:h-[400px] md:w-[400px] lg:w-[550px] lg:h-[200px] lg:card-side bg-base-100 shadow-xl mt-10 " style={{backgroundColor:Card_bg}}>
   <figure><img src={Cover} alt="Album"/></figure>
   <div className="card-body py-4">
     <h2 className="card-title badge btn  text-base normal-case" style={{backgroundColor:Category_bg,color:Text_button_bg}}>{Category}</h2>
    
     <h2 className="text-[#0B0B0B] text-sm font-bold">{Title}</h2>
-    <p style={{color:Text_button_bg}} className="text-sm font-semibold">{Price}</p>
+    <p style={{color:Text_button_bg}} className="text-sm font-semibold">${Price}</p>
     <div className="card-actions justify-start ">
       <button className="btn btn-primary normal-case border-none text-base font-semibold px-4" style={{backgroundColor:Text_button_bg}}>View Details</button>
     </div>
